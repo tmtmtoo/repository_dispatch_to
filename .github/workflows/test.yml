@@ -8,4 +8,4 @@ jobs:
   dispatch:
     runs-on: ubuntu-latest
     steps:
-      - run: echo work!
+      - run: hogehogehogeeeee fail! 
