@@ -1,0 +1,11 @@
+name: repository_dispatch_to
+
+on:
+  repository_dispatch:
+    types: [test]
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo work!
